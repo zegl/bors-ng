@@ -4,7 +4,7 @@ The innards of Bors-NG
 Bors-NG uses Ecto for all permanent data storage
 and Phoenix to implement the webserver portion
 (which is responsible for both the dashboard frontend and GitHub webhooks).
-Bors-NG also has a number of worker GenServers,
+Bors-NG also has a number of worker GenServers, XOXOXO
 to help isolate different projects from each other and perform background processing.
 
 You'll also want to do some terminology mapping between what we say to users and what we say in the code:
